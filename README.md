@@ -1,0 +1,1 @@
+I created a slackbot for a stardance challange hosted by hackclub. The bot runs slash commands inside Slack — things like /slck-ping to check if the bot is alive, and /slck-hello to greet whoever runs the command. It's built with Slack Bolt (Python), runs in Socket Mode, and pulls credentials from a .env file to keep tokens secure.
