@@ -49,6 +49,13 @@ def handle_dice(ack, respond):
     import random
     result = random.choice([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20])
     respond(f"The dice landed on: {result}!")
+    
+@app.command("/slck-time")
+def handle_time(ack, respond):
+    ack()
+
+    current_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+    respond(f"The current time is: {current_time}")
 
     
 
@@ -60,7 +67,7 @@ def handle_list(ack, respond):
     respond("Here are the available commands:\n"
             "1. `/slck-ping` - Check the latency of the bot.\n"
             "2. `/slck-hello` - Get a personalized greeting message.\n"
-            "3. `/slck-list` - List all available commands."
+            "3. `/slck-list` - List all available commands.\n"
             "4. `/slck-coin` - Flips a random coin and returns heads or tails.\n"
             "5. `/slck-dice` - Rolls a 20 sided dice.")
 
