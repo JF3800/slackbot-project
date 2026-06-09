@@ -57,7 +57,21 @@ def handle_time(ack, respond):
     current_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
     respond(f"The current time is: {current_time}")
 
-    
+#Command that responds with shrug emoji
+@app.command("/slck-shrug")
+def handle_shrug(ack, respond):
+    ack()
+
+    respond("¯\\\(ツ)\/¯")
+
+#Command that responds with an motivational quote
+@app.command("/slck-motivate")
+def handle_motivate(ack,respond):
+    ack()
+
+    import random
+    quote = random.choice(["Action is the Foundational Key To All Sucess - Pablo Picasso", "Keep going, You got this!", "Do the thing you think you cannot do! <3", "Keep Going!", "The Future Belongs to those who belive in their beauty of their dreams.", "Keep Going, You've done so much already!", "Belive in your work no matter what you doing", "Always give 100% of your effort!"])
+    respond(quote)
 
 #This handles the list command which lists all the commands available in the bot so far.
 @app.command("/slck-list")
