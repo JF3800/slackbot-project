@@ -30,7 +30,7 @@ def handle_hello(ack, respond, command):
 
     user = command.get("user_name", "User") 
 
-    respond(f"Hello, {user}! :wave:. Welcome to my Stardust challange project! :tada:")
+    respond(f"Hello, {user}! :wave:. Welcome to my Stardance challange project! :tada:")
 
 #this handels the coin flip command which responds with heads or tails randomly.
 @app.command("/slck-coin")
