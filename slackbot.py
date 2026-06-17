@@ -83,7 +83,9 @@ def handle_list(ack, respond):
             "2. `/slck-hello` - Get a personalized greeting message.\n"
             "3. `/slck-list` - List all available commands.\n"
             "4. `/slck-coin` - Flips a random coin and returns heads or tails.\n"
-            "5. `/slck-dice` - Rolls a 20 sided dice.")
+            "5. `/slck-dice` - Rolls a 20 sided dice.\n"
+            "6. `/slck-motivate` - Sends a motivational quote.\n"
+            "7. `/slck-shrug`- Sends a ¯\\\(ツ)\/¯ :p.")
 
 # Start your app in Socket Mode
 if __name__ == "__main__":
