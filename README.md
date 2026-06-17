@@ -10,7 +10,6 @@ A 24/7 Slack bot built with Python and Slack Bolt that runs on a personal device
 | `/slck-hello` | Greets you by your Slack username |
 | `/slck-coin` | Flips a coin - heads or tails |
 | `/slck-dice` | Rolls a 20-sided dice |
-| `/slck-time` | Returns the current time |
 | `/slck-shrug` | ¯\(ツ)/¯ |
 | `/slck-motivate` | Sends a random motivational quote |
 | `/slck-list` | Lists all available commands |
