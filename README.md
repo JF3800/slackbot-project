@@ -46,3 +46,8 @@ python slackbot.py
 - **Bot Token Scopes:** `app_mentions:read`, `channels:history`, `chat:write`, `commands`
 - **Socket Mode:** enabled
 - **Slash Commands:** registered for each `/slck-*` command above
+
+---
+#Ai Decleration Usage
+
+AI was used in this project as a learning and debugging tool, not to write it for me. The original guided project was in JavaScript, so I used AI to convert the starter code into Python and to understand the Slack Bolt syntax and structure. The first two commands were built with AI assistance while I was still learning the pattern. After that I wrote all remaining commands myself. Throughout the project I also used AI to help debug errors, understanding what went wrong rather than just copying fixes.
